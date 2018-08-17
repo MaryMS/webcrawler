@@ -32,11 +32,14 @@ Substitua <myenv> pelo nome do ambiente.
 
 . Para ativar o novo ambiente:
 Windows: ```sh activate myenv ```
+
 macOS/Linux: ```sh source activate myenv ```
 
 . Para desativar um ambiente:
- Windows: prompt do Anaconda: ```sh deactivate ```
- macOS/Linux: no terminal: ```sh source deactivate```
+Windows: prompt do Anaconda: ```sh deactivate ```
+
+macOS/Linux: no terminal: ```sh source deactivate ```
+
 
 Em caso de problemas na instalação do Scrapy, consulte as instruções de cada plataforma:
 https://doc.scrapy.org/en/latest/intro/install.html#intro-install-platform-notes
