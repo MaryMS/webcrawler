@@ -49,9 +49,9 @@ scrapy genspider getlink example.com
 ```
 Esse código cria o crawler e gera o código para o spider "getlink".
 
-Copie o arquivo getlink clonado desse repositório para a pasta spiders
+Copie o arquivo getlink clonado desse repositório para a pasta spiders.
 
-Copie os demais arquivos.py clonados desse repositório para a pasta urls
+Copie os demais arquivos.py clonados desse repositório para a pasta urls.
 
 Edite o arquivo getlink.py na linha  start_urls, com o site que irá iniciar o crawling.
 
