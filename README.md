@@ -10,12 +10,12 @@ Como usar:
 - Criar um novo projeto spider
 - Rodar o webcrawler
 
-#### Clonar o projeto
+### Clonar o projeto
 ```sh
 git clone https://github.com/MaryMS/webcrawler.git
 ```
 
-#### Instalar o Scrapy
+### Instalar o Scrapy
 É recomendável usar virtualenv e instalar o Scrapy com o comando:
 ```sh
 pip install scrapy
@@ -30,6 +30,7 @@ conda create -n myenv scrapy
 Substitua myenv pelo nome do ambiente.
 
 Para ativar o novo ambiente:
+
 Windows: 
 ```sh
 activate myenv
@@ -41,6 +42,7 @@ source activate myenv
 ```
 
 Para desativar um ambiente:
+
 Windows (prompt do Anaconda):
 ```sh
 deactivate
@@ -51,11 +53,10 @@ macOS/Linux (terminal):
 source deactivate
 ```
 
-
 Em caso de problemas na instalação do Scrapy, consulte as instruções de cada plataforma:
 https://doc.scrapy.org/en/latest/intro/install.html#intro-install-platform-notes
 
-#### Criar um novo projeto spider
+### Criar um novo projeto spider
 
 Executar o comando: 
 ```sh
