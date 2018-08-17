@@ -15,21 +15,26 @@ git clone https://github.com/MaryMS/webcrawler.git
 
 #### Instalar o Scrapy
 É recomendável usar virtualenv e instalar o Scrapy com o comando:
+```sh
 pip install scrapy
+```
 
 OU
 ##### Com Anaconda:
 Criar um ambiente específico para o Scrapy:
+```sh
 conda create -n <myenv> scrapy
+```
+
 Substitua <myenv> pelo nome do ambiente.
 
 . Para ativar o novo ambiente:
-  Windows: activate myenv
-  macOS/Linux: source activate myenv
+  Windows: ```sh activate myenv ```
+  macOS/Linux: ```sh source activate myenv ```
 
 . Para desativar um ambiente:
-  Windows: prompt do Anaconda: deactivate
-  macOS/Linux: no terminal: source deactivate
+  Windows: prompt do Anaconda: ```sh deactivate ```
+  macOS/Linux: no terminal: ```sh source deactivate```
 
 Em caso de problemas na instalação do Scrapy, consulte as instruções de cada plataforma:
 https://doc.scrapy.org/en/latest/intro/install.html#intro-install-platform-notes
@@ -49,11 +54,11 @@ scrapy genspider getlink example.com
 ```
 Esse código cria o crawler e gera o código para o spider "getlink".
 
-Copie o arquivo getlink clonado desse repositório para a pasta spiders.
+Copie o arquivo getlink.py clonado desse repositório para a pasta spiders.
 
 Copie os demais arquivos.py clonados desse repositório para a pasta urls.
 
-Edite o arquivo getlink.py na linha  start_urls, com o site que irá iniciar o crawling.
+Edite o arquivo getlink.py na linha start_urls e configure para o site que irá iniciar o crawling.
 
 #### Rodar o webcrawler
 
@@ -63,7 +68,7 @@ scrapy crawl getlink
 ```
 Para extrair as urls para um arquivo JSON: 
 ```sh
-scrapy crawl getlink -o urls.csv -t csv
+scrapy crawl getlink -o urls.json -t json
 ```
 Para extrair as urls para um arquivo CSV: 
 ```sh
