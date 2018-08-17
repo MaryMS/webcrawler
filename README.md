@@ -21,7 +21,6 @@ git clone https://github.com/MaryMS/webcrawler.git
 pip install scrapy
 ```
 
-OU
 ##### Com Anaconda:
 Criar um ambiente específico para o Scrapy:
 ```sh
@@ -30,15 +29,27 @@ conda create -n <myenv> scrapy
 
 Substitua <myenv> pelo nome do ambiente.
 
-. Para ativar o novo ambiente:
-Windows: ```sh activate myenv ```
+Para ativar o novo ambiente:
+Windows: 
+```sh
+activate myenv
+```
 
-macOS/Linux: ```sh source activate myenv ```
+macOS/Linux:
+```sh
+source activate myenv
+```
 
-. Para desativar um ambiente:
-Windows: prompt do Anaconda: ```sh deactivate ```
+Para desativar um ambiente:
+Windows: prompt do Anaconda:
+```sh
+deactivate
+```
 
-macOS/Linux: no terminal: ```sh source deactivate ```
+macOS/Linux: no terminal:
+```sh
+source deactivate
+```
 
 
 Em caso de problemas na instalação do Scrapy, consulte as instruções de cada plataforma:
