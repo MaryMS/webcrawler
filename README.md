@@ -41,12 +41,12 @@ source activate myenv
 ```
 
 Para desativar um ambiente:
-Windows: prompt do Anaconda:
+Windows (prompt do Anaconda):
 ```sh
 deactivate
 ```
 
-macOS/Linux: no terminal:
+macOS/Linux (terminal):
 ```sh
 source deactivate
 ```
