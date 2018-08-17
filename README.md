@@ -24,10 +24,10 @@ pip install scrapy
 ##### Com Anaconda:
 Criar um ambiente específico para o Scrapy:
 ```sh
-conda create -n <myenv> scrapy
+conda create -n myenv scrapy
 ```
 
-Substitua <myenv> pelo nome do ambiente.
+Substitua myenv pelo nome do ambiente.
 
 Para ativar o novo ambiente:
 Windows: 
